@@ -35,6 +35,9 @@ h2>a:hover
 }
 body
 {
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
     background-color: #1F1F1F;
     color: #FFFFF2;
     font-family: Arial, Helvetica, sans-serif;
@@ -55,17 +58,17 @@ div.video
 {
     margin: 0px -20px 30px -20px;
     padding: 20px;
-    /* padding-bottom: 50%; */
+    padding-bottom: 50%;
     position: relative;
 }
-/* div.video>iframe
+div.video>iframe
 {
     position: absolute;
     top: 5%;
     left: 5%;
     width: 90%;
     height: 90%;
-} */
+}
 footer
 {
     padding-top: 50px;
