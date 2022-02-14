@@ -73,3 +73,7 @@ footer
 {
     padding-top: 50px;
 }
+div#conteiner
+{
+    overflow-x: auto;
+}
